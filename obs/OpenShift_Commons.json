@@ -12,7 +12,7 @@
             "libobs.unmute": []
         },
         "id": "pulse_output_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": true,
         "name": "Desktop Audio",
@@ -29,7 +29,7 @@
         "versioned_id": "pulse_output_capture",
         "volume": 1.0
     },
-    "current_program_scene": "Stream Over",
+    "current_program_scene": "Static Image",
     "current_scene": "Static Image",
     "current_transition": "Fade",
     "groups": [],
@@ -40,6 +40,12 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi",
+            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -98,6 +104,9 @@
             "name": "BlueJeans"
         },
         {
+            "name": "Be Right Back"
+        },
+        {
             "name": "Outro Bumper"
         },
         {
@@ -125,7 +134,7 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Streaming Ended",
+            "name": "Be Right Backj",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -135,7 +144,593 @@
             "settings": {
                 "clear_on_media_end": false,
                 "hw_decode": true,
-                "local_file": "/opt/streaming-tools/obs/assets/OpenShift_Twitch_StreamEnding-.mp4",
+                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpenShift_Twitch_BRB.mp4",
+                "looping": true
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Be Right Backj": [],
+                "libobs.show_scene_item.Be Right Backj": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Be Right Back",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Be Right Backj",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "BlueJeans (Window)",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "client_area": true,
+                "window": "Blue Jeans Network | Video Collaboration in the Cloud - Mozilla Firefox:MozillaWindowClass:firefox.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Starting": [],
+                "libobs.show_scene_item.Starting": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Starting Soon",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Starting",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Commons Banner",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/OpenShiftCommons-700x125.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Outro Video",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "close_when_inactive": false,
+                "hw_decode": true,
+                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/Close_OpenShift bumper_COMMONS_CLOSE_(white)_FINAL2.mp4",
+                "restart_on_activate": true
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 0.94685393571853638
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Outro Video": [],
+                "libobs.show_scene_item.Outro Video": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Outro Bumper",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Outro Video",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.BlueJeans (Window)": [],
+                "libobs.hide_scene_item.Commons Banner": [],
+                "libobs.show_scene_item.BlueJeans (Window)": [],
+                "libobs.show_scene_item.Commons Banner": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "BlueJeans",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 11,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "BlueJeans (Window)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Commons Banner",
+                        "pos": {
+                            "x": 1474.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.39821428060531616,
+                            "y": 0.40000000596046448
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Intro Video",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/3208_OpenShift bumper_GENERAL_INTRO_(white)_FINAL.mp4"
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 0.94685393571853638
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Intro Video": [],
+                "libobs.show_scene_item.Intro Video": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Intro Bumper",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Intro Video",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/OpenShiftCommonsThumbnail.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image": [],
+                "libobs.show_scene_item.Image": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Static Image",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Starting",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpehShift_Twitch_StartingSoon.mp4",
                 "looping": true
             },
             "sync": 0,
@@ -223,7 +818,7 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Starting",
+            "name": "Streaming Ended",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -232,497 +827,13 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
+                "close_when_inactive": false,
                 "hw_decode": true,
-                "local_file": "/opt/streaming-tools/obs/assets/OpehShift_Twitch_StartingSoon.mp4",
+                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpenShift_Twitch_StreamEnding-.mp4",
                 "looping": true
             },
             "sync": 0,
             "versioned_id": "ffmpeg_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Image": [],
-                "libobs.show_scene_item.Image": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Static Image",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 2,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Image",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Image",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "/opt/streaming-tools/obs/assets/openshift-commons/OpenShiftCommonsThumbnail.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Intro Video": [],
-                "libobs.show_scene_item.Intro Video": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Intro Bumper",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 2,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Intro Video",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Intro Video",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "clear_on_media_end": false,
-                "hw_decode": true,
-                "local_file": "/opt/streaming-tools/obs/assets/openshift-commons/Intro_OpenShift bumper_COMMONS_INTRO_(white)_FINAL2.mp4"
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
-            "volume": 0.94685393571853638
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Commons Banner": [],
-                "libobs.hide_scene_item.Window Capture (Xcomposite)": [],
-                "libobs.show_scene_item.Commons Banner": [],
-                "libobs.show_scene_item.Window Capture (Xcomposite)": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "BlueJeans",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 8,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "Commons Banner",
-                        "pos": {
-                            "x": 716.0,
-                            "y": 865.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0750000476837158,
-                            "y": 1.0750000476837158
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": false,
-                        "name": "Window Capture (Xcomposite)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Outro Video": [],
-                "libobs.show_scene_item.Outro Video": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Outro Bumper",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 1,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Outro Video",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Outro Video",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "clear_on_media_end": false,
-                "hw_decode": true,
-                "local_file": "/home/cshort/Videos/Commons/Close_OpenShift bumper_COMMONS_CLOSE_(white)_FINAL2.mp4",
-                "restart_on_activate": true
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
-            "volume": 0.94685393571853638
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Commons Banner",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "/opt/streaming-tools/obs/assets/openshift-commons/OpenShiftCommons-700x125.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "xcomposite_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Window Capture (Xcomposite)",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "capture_window": "35651585\r\nBlue Jeans Network | Video Collaboration in the Cloud - Google Chrome\r\ngoogle-chrome",
-                "show_cursor": false
-            },
-            "sync": 0,
-            "versioned_id": "xcomposite_input",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Starting": [],
-                "libobs.show_scene_item.Starting": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Starting Soon",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 2,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Starting",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
             "volume": 1.0
         }
     ],
