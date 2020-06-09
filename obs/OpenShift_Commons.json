@@ -29,8 +29,8 @@
         "versioned_id": "pulse_output_capture",
         "volume": 1.0
     },
-    "current_program_scene": "Static Image",
-    "current_scene": "Static Image",
+    "current_program_scene": "BlueJeans",
+    "current_scene": "Intro Bumper",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -92,6 +92,9 @@
     "scaling_off_y": 0.0,
     "scene_order": [
         {
+            "name": "Blank Scene"
+        },
+        {
             "name": "Static Image"
         },
         {
@@ -114,6 +117,35 @@
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blank Scene",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 0,
+                "items": []
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -232,7 +264,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "client_area": true,
-                "window": "Blue Jeans Network | Video Collaboration in the Cloud - Mozilla Firefox:MozillaWindowClass:firefox.exe"
+                "window": "BlueJeans Network | Video Collaboration in the Cloud - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
             },
             "sync": 0,
             "versioned_id": "window_capture",
