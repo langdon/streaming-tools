@@ -30,7 +30,7 @@
         "volume": 1.0
     },
     "current_program_scene": "BlueJeans",
-    "current_scene": "Intro Bumper",
+    "current_scene": "BlueJeans",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -175,8 +175,9 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
+                "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpenShift_Twitch_BRB.mp4",
+                "local_file": "C:/streaming-tools/obs/assets/OpenShift_Twitch_BRB.mp4",
                 "looping": true
             },
             "sync": 0,
@@ -264,7 +265,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "client_area": true,
-                "window": "BlueJeans Network | Video Collaboration in the Cloud - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
+                "cursor": false,
+                "window": "Chris Short's Meeting - ID#3A 132 414 6901:HwndWrapper[BlueJeans.exe;;39672213-a2d9-4258-a944-2eb22cc01c69]:BlueJeans.exe"
             },
             "sync": 0,
             "versioned_id": "window_capture",
@@ -350,7 +352,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/OpenShiftCommons-700x125.png"
+                "file": "C:/streaming-tools/obs/assets/openshift-commons/OpenShiftCommons-700x125.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -385,9 +387,9 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
-                "close_when_inactive": false,
+                "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/Close_OpenShift bumper_COMMONS_CLOSE_(white)_FINAL2.mp4",
+                "local_file": "C:/streaming-tools/obs/assets/openshift-commons/Close_OpenShift bumper_COMMONS_CLOSE_(white)_FINAL2.mp4",
                 "restart_on_activate": true
             },
             "sync": 0,
@@ -481,7 +483,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 12,
                 "items": [
                     {
                         "align": 5,
@@ -578,7 +580,7 @@
                 "clear_on_media_end": false,
                 "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/3208_OpenShift bumper_GENERAL_INTRO_(white)_FINAL.mp4"
+                "local_file": "C:/streaming-tools/obs/assets/openshift-commons/Intro_OpenShift bumper_COMMONS_INTRO_(white)_FINAL2.mp4"
             },
             "sync": 0,
             "versioned_id": "ffmpeg_source",
@@ -664,7 +666,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/openshift-commons/OpenShiftCommonsThumbnail.png"
+                "file": "C:/streaming-tools/obs/assets/openshift-commons/OpenShiftCommonsThumbnail.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -762,7 +764,7 @@
                 "clear_on_media_end": false,
                 "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpehShift_Twitch_StartingSoon.mp4",
+                "local_file": "C:/streaming-tools/obs/assets/OpehShift_Twitch_StartingSoon.mp4",
                 "looping": true
             },
             "sync": 0,
@@ -798,11 +800,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -859,9 +861,9 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
-                "close_when_inactive": false,
+                "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "C:/Users/Chris Short/Documents/GitHub/streaming-tools/obs/assets/OpenShift_Twitch_StreamEnding-.mp4",
+                "local_file": "C:/streaming-tools/obs/assets/OpenShift_Twitch_StreamEnding-.mp4",
                 "looping": true
             },
             "sync": 0,
